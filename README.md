@@ -8,4 +8,4 @@ Here is when AI is coming to help us, to make things seems to dicede by its own,
 
   - AI in enemies occurs when through an algorithm, the entity can decide, act or give a response by itself without any kinf of player input.
 
-´<iframe src="https://giphy.com/embed/xiOZfj4hl5pns6UtjT" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>´
+![](link-attack-gif.gif)
