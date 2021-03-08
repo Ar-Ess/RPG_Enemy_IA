@@ -6,6 +6,8 @@ Nowadays, the RPG world is in fight, all the companies wants to make something u
 
 Here is when AI is coming to help us, to make things seems to dicede by its own, things be realistic and not feeling you are the only one alive there! So what we can understand as AI in enemies (or even NPC)? 
 
-  - AI in enemies occurs when through an algorithm, the entity can decide, act or give a response by itself without any kinf of player input.
+  - AI in enemies occurs when through an algorithm, the entity can decide, act or give a response by itself without any kind of player input.
 
 ![](link-attack-gif.gif)
+
+
