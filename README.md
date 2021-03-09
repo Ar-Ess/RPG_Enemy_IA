@@ -10,4 +10,12 @@ Here is when AI is coming to help us, to make things seems to dicede by its own,
 
 ![](link-attack-gif.gif)
 
+Finally, we can conclude that the main porpouse of AI in RPG is to give a realistic response to a player action as well as imitating what could be real in our world. This statement also is correct when we talk about certain NPC, but we are going to talk about it later!
 
+# Where could we find AI in an RPG?
+
+## Enemies
+
+In the enemy field we can find AI in a lot of places, so we want the game to feel realistic and each entity seem to have its own decisions. In this case, there are a couple of places where we can find this kind of inteligence, such as:
+
+###   -  Enemy default live movement: This 
