@@ -18,4 +18,12 @@ Finally, we can conclude that the main porpouse of AI in RPG is to give a realis
 
 In the enemy field we can find AI in a lot of places, so we want the game to feel realistic and each entity seem to have its own decisions. In this case, there are a couple of places where we can find this kind of inteligence, such as:
 
-###   -  Enemy default live movement: This 
+### -  Enemy default live movement: 
+Sometimes, we can see enemies walking around the the rocky ground of our game searching for a player to attack. That movement which makes them feel alive is based in an Artificial Inteligence, using some directions and reference points, the enemy can automatically & randomly choose where to walk. When is out of its defined zone, turns around to move in another direction. Generating this events we can achieve that realism we are searching.
+
+![](link-enemy-movement.gif)
+
+### - Enemy live chasing:
+Once you have admired the beautiful choices the enemy decides to move around, it is time to go in action! When the player gets close to an specefic enemy, sometimes this starts to chase the player to "play with they". The transition of detecting the player is close, and decide to chase it sticks inside the definition of AI of an enemy. Next time you'll think twice before get close to an enemy!
+
+![](mario-chased-enemy.gif)
