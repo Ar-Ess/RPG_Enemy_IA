@@ -78,8 +78,9 @@ We can do that with this formula:
 
 Enemy's health / Player's health  = 79 / 40  = 1,975 (focus mode)
  
-In case focus mode is bigger equal than 1 --> TRYHARD MODE
-In case focus mode is lower than 1 --> DEFENSIVE MODE
+ - In case focus mode is bigger equal than 1 --> TRYHARD MODE
+
+ - In case focus mode is lower than 1 --> DEFENSIVE MODE
 
 ![](mario-balanced-combat.gif)
 
