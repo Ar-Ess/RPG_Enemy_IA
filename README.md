@@ -76,12 +76,10 @@ We can divide the actual health of each entity and create a brain structure whic
 
 We can do that with this formula:
 
-   Enemy's healh            79
-------------------- = -------------- = 1,975 (focus mode)
-  Player's health           40
-  
-  In case focus mode is bigger equal than 1 --> TRYHARD MODE
-  In case focus mode is lower than 1 --> DEFENSIVE MODE
+Enemy's health / Player's health  = 79 / 40  = 1,975 (focus mode)
+ 
+In case focus mode is bigger equal than 1 --> TRYHARD MODE
+In case focus mode is lower than 1 --> DEFENSIVE MODE
 
 ![](mario-balanced-combat)
 
