@@ -27,3 +27,18 @@ Sometimes, we can see enemies walking around the the rocky ground of our game se
 Once you have admired the beautiful choices the enemy decides to move around, it is time to go in action! When the player gets close to an specefic enemy, sometimes this starts to chase the player to "play with they". The transition of detecting the player is close, and decide to chase it sticks inside the definition of AI of an enemy. Next time you'll think twice before get close to an enemy!
 
 ![](mario-chased-enemy.gif)
+
+### - Combat choice
+One of the most important features of an RPG with turnbased combats as well as live combats (like Zelda games), the choice an enemy has to do to defeat the player. It is not that easy, because the enemy has to take care of killing the playing as well as not be killed. It is an important part of this kind of games, but also the one that makes an RPG being amazing!
+
+![](mario-combat-enemy)
+
+## NPC
+
+In the case of NPC, there are a lot of features where we can include AI, but this research is about enemies AI, so I am going to explain briefly some examples because I think it is pretty similar with enemies AI, apart from being interesting too.
+
+## - Player following or combat help (between other options)
+NPC can have the same characteristics than an enemy but in a peaceful way. Can follow the player to accompany it in its adventures, or can help in a combat choosing their action against the enemy.
+
+![](mario-segment-chasing) ![](mario-segment-combat)
+
