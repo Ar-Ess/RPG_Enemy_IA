@@ -73,9 +73,9 @@ One good example for a balanced design could be to generate a direct relationshi
 We can suppose our player's health is 40/50 HP.
 We can suppose our enemy's health is 79/90 HP.
 
-We can divide the actual health of each entity and create a brain structure which actitude is the following one:
- - When enemy's health is lower than player's health, turn to defensive mode.
- - When enemy's health is higher than player's health, turn to tryhard mode.
+We can divide the actual health of each entity and create a brain structure which attitude is the following one:
+ - When the enemy's health is lower than the player's health, turn to defensive mode.
+ - When the enemy's health is higher than the player's health, turn to tryhard mode.
 
 We can do that with this formula:
 
@@ -91,7 +91,7 @@ Enemy's health / Player's health  = 79 / 40  = 1,975 (focus mode)
 
 # Intelligence level
 
-The intelligence level of an enemy determines wheather its decisions are dumb or super smart, regarding each moment/turn it has to defeat the player. It is a good option to develop an algorithm which allows us to decide how intelligent is the enemy. Actually, there are a lot of pre-defined algorithms which even makes enemies learn from their errors. We are not going that far, but using the last terms (Brain structures) we can set up the difference in intelligence. It is important to mention that wheather the enemy is smarter than others can be a totally-apart feature regarding its LVL of experience. The enemy can be lvl 79, but be so dumb. Normally this kind of concepts are related with easy-to-kill enemies (dumb) vs. bosses (smarter).
+The intelligence level of an enemy determines whether its decisions are dumb or super smart, regarding each moment/turn it has to defeat the player. It is a good option to develop an algorithm that allows us to decide how intelligent is the enemy. Actually, there are a lot of pre-defined algorithms which even make enemies learn from their errors. We are not going that far, but using the last terms (Brain structures) we can set up the difference in intelligence. It is important to mention that whether the enemy is smarter than others can be a totally-apart feature regarding its LVL of experience. The enemy can be lvl 79, but be so dumb. Normally this kind of concepts are related to easy-to-kill enemies (dumb) vs. bosses (smarter).
 
 Without further do, here you can see the direct relationship between the Brain structures, the respective usual lvl of experience, and its lvl of intelligence:
 
@@ -99,19 +99,19 @@ Without further do, here you can see the direct relationship between the Brain s
 
 ***
 
-# Types of enemy behaviour
+# Types of enemy behavior
 
-For every original RPG game, there is a different enemy behaviour. It is important to know about this topic which would be the one will make our game shine. It important to distinguish the enemy behaviour from the combat system, it is not the same. We can be, for example, in a live combat system and fight in a Link-Usuall game or a Cadence of Hyrule style. Both are live combat system, but the enemy behaviour is different. Usually, this term "enemy behaviour" can match with the creative mechanics of each game.
+For every original RPG game, there is a different enemy behavior. It is important to know about this topic which would be the one that will make our game shine. It important to distinguish the enemy behavior from the combat system, it is not the same. We can be, for example, in a live combat system and fight in a Link-usual game or a Cadence of Hyrule style. Both are live combat systems, but the enemy behavior is different. Usually, the term "enemy behavior" can match with the creative mechanics of each game.
 
-Now I am going to list some types of enemy behaviour:
+Now I am going to list some types of enemy behavior:
 
 ## Static Turn-based (Pokemon)
-In this type of behaviour the enemy do not move from its position, meaning of "static". And obviously, due the combat system, we add the "Turn-based". This eases the developer's life because the atacks are predefined and there has not to be any type of physics neither collisions. The enemy just chooses the attack and then makes the action from its position.
+In this type of behavior the enemy does not move from its position, meaning of "static". And obviously, due to the combat system, we add the "Turn-based". This eases the developer's life because the attacks are predefined and there has not to be any type of physics neither collisions. The enemy just chooses the attack and then makes the action from its position.
 
 ![](static-turnbased-pokemon.jpg)
 
 ## Static Natural (Cadence of Hyrule)
-The static natural is a strange combination, there are a few enemies of them. In this case, Cadence of Hyrule presents some enemies which actitude is static, but attacking the player at the ryhthm of the music. Natural comes from the sense which the enemy is located in the same place the player is, so there's no need to enter a new scene to defeat the enemy itself.
+The static natural is a strange combination, there are a few enemies of them. In this case, Cadence of Hyrule presents some enemies which attitude is static but attacking the player at the rhythm of the music. Natural comes from the sense which the enemy is located in the same place the player is, so there's no need to enter a new scene to defeat the enemy itself.
 
 ![](static-natural-cadence.gif)
 
@@ -121,25 +121,25 @@ In this case, The Legend of Zelda RPG classic games are perfect. The enemies att
 ![](live-natural-link.gif)
 
 ## Live Turn-based (Mario & Luigi saga)
-Mario & Luigi saga has been a revolution in the turn-based combat systems, making the enemies take live place in the fight. As you can see in the link below, the enemies move towards the player, involving collisions and physics, so tne player is able to dodge it also live.
+Mario & Luigi saga has been a revolution in the turn-based combat systems, making the enemies take a live place in the fight. As you can see in the link below, the enemies move towards the player, involving collisions and physics, so the player is able to dodge it also live.
 
 ![](live-turnbased-mario.gif)
 
 [Video for reference](https://youtu.be/rbhcpTDpm-o?t=1335)
 
 ## Others...
-Finally, we reaches the part where your mind has to fly in order to search new type of enemies behaviours. In this case, is a turn-based combat which the "enemy" just attacks if its been attacked previously, so the main mechanic of the game is to tame the enemy, not to kill them.
+Finally, we reach the part where your mind has to fly in order to search new type of enemies behaviors. In this case, is a turn-based combat in which the "enemy" just attacks if it's been attacked previously, so the main mechanic of the game is to tame the enemy, not to kill them.
 
 ![](others-dinosaur-king.gif)
 
 # Conclusions
 
-To conclude this research work, I wanted to come up with some basic rules to take care about when designing a enemy and its AI. That's also what I learnt from it:
+To conclude this research work, I wanted to come up with some basic rules to take care of when designing an enemy and its AI. That's also what I learned from it:
 
-  - Do not copy the same enemies from other games, try to change them a little bit. The small effort in changing something of its behaviour is training yourself for a future you can be even more creative.
+  - Do not copy the same enemies from other games, try to change them a little bit. The small effort in changing something of its behavior is training yourself for a future you can be even more creative.
 
   - Think as you were the player in that situation, agains who would you like to fight, how would you like to avoid its attacks?
 
-  - Invert the structural rules. What if it's the enemy which has to run from you? What if the combat is "How to scape from this enemy" instead of "Defeating it"?
+  - Invert the structural rules. What if it's the enemy which has to run from you? What if the combat is "How to escape from this enemy" instead of "Defeating it"?
 
   - GIT GUD. Something that catches the player attention about one enemy is its capacity of make fun of itself, through maybe its attacks or some conversations. Also, will help the game be challenging, because of the distraction of the player.
