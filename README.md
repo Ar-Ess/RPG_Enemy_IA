@@ -112,7 +112,7 @@ Now I am going to list some types of enemy behaviour:
 
 ## Live Natural (TLOZ)
 
-![](live-natural-tloz.gif)
+![](live-natural-link.gif)
 
 ## Live Turn-based (Mario & Luigi saga)
 
