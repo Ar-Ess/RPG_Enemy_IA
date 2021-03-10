@@ -104,19 +104,19 @@ Now I am going to list some types of enemy behaviour:
 
 ## Static Turn-based (Pokemon)
 
-![](static-turnbased-pokemon)
+![](static-turnbased-pokemon.png)
 
 ## Static Natural (Cadence of Hyrule)
 
-![](static-natural-cadence)
+![](static-natural-cadence.gif)
 
 ## Live Natural (TLOZ)
 
-![](live-natural-tloz)
+![](live-natural-tloz.gif)
 
 ## Live Turn-based (Mario & Luigi saga)
 
-![](live-turnbased-pokemon)
+![](live-turnbased-mario.gif)
 
 ## Others...
 
