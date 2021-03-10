@@ -120,6 +120,8 @@ Now I am going to list some types of enemy behaviour:
 
 ## Others...
 
+![](others-dinosaur-king.gif)
+
 # Conclusions
 
 
