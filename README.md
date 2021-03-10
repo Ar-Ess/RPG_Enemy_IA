@@ -131,4 +131,12 @@ Finally, we reaches the part where your mind has to fly in order to search new t
 
 # Conclusions
 
+To conclude this research work, I wanted to come up with some basic rules to take care about when designing a enemy and its AI. That's also what I learnt from it:
 
+  - Do not copy the same enemies from other games, try to change them a little bit. The small effort in changing something of its behaviour is training yourself for a future you can be even more creative.
+
+  - Think as you were the player in that situation, agains who would you like to fight, how would you like to avoid its attacks?
+
+  - Invert the structural rules. What if it's the enemy which has to run from you? What if the combat is "How to scape from this enemy" instead of "Defeating it"?
+
+  - GIT GUD. Something that catches the player attention about one enemy is its capacity of make fun of itself, through maybe its attacks or some conversations. Also, will help the game be challenging, because of the distraction of the player.
