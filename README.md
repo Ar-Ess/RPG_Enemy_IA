@@ -92,7 +92,7 @@ The intelligence level of an enemy determines wheather its decisions are dumb or
 
 Without further do, here you can see the direct relationship between the Brain structures, the respective usual lvl of experience, and its lvl of intelligence:
 
-![](graph-intelligence-brain-lvl.png)
+![](graph-intel-brain-lvl.png)
 
 ***
 
