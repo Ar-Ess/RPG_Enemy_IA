@@ -104,7 +104,7 @@ Now I am going to list some types of enemy behaviour:
 
 ## Static Turn-based (Pokemon)
 
-![](static-turnbased-pokemon.png)
+![](static-turnbased-pokemon.jpg)
 
 ## Static Natural (Cadence of Hyrule)
 
