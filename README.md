@@ -55,12 +55,12 @@ In this research project I am going to generalize a lot with the brain structure
 ## Tryhard mode
 In the tryhard mode, the enemy focus is the life of the character, which is its only reason to fight. Its own life has no important meanwhile the player is alive, that's why its only choices are focused on attacking to hurt the player.
 
-![](pokemon-attack-tryhard)
+![](pokemon-attack-tryhard.gif)
 
 ## Defensive mode
 In this case, the enemy is just focused on its life/health, and lso reciving the less damage possible. This is the case of buff enemies, or healers, which 90% of the times are restoring its life as well as buffing its stats.
 
-![](pokemon-buff-defensive)
+![](pokemon-buff-defensive.gif)
 
 ## Balanced mode
 Here we have the balanced mode, which is a division between the last ones. This is the most used, because upgrades the level of reality in the game. In case the enemy has high amount of life, it commits a 75% tryhard & 25% defensive. When it is below the usual health points, the percentages inverts completely. The balanced focus on the player's life when enemies life is okey and viceversa.
