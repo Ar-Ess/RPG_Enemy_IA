@@ -86,3 +86,33 @@ Enemy's health / Player's health  = 79 / 40  = 1,975 (focus mode)
 
 ***
 
+# Intelligence level
+
+The intelligence level of an enemy determines wheather its decisions are dumb or super smart, regarding each moment/turn it has to defeat the player. It is a good option to develop an algorithm which allows us to decide how intelligent is the enemy. Actually, there are a lot of pre-defined algorithms which even makes enemies learn from their errors. We are not going that far, but using the last terms (Brain structures) we can set up the difference in intelligence. It is important to mention that wheather the enemy is smarter than others can be a totally-apart feature regarding its LVL of experience. The enemy can be lvl 79, but be so dumb. Normally this kind of concepts are related with easy-to-kill enemies (dumb) vs. bosses (smarter).
+
+Without further do, here you can see the direct relationship between the Brain structures, the respective usual lvl of experience, and its lvl of intelligence:
+
+![](graph-intelligence-brain-lvl)
+
+***
+
+# Types of enemy behaviour
+
+For every original RPG game, there is a different enemy behaviour. It is important to know about this topic which would be the one will make our game shine. It important to distinguish the enemy behaviour from the combat system, it is not the same. We can be, for example, in a live combat system and fight in a Link-Usuall game or a Cadence of Hyrule style. Both are live combat system, but the enemy behaviour is different. Usually, this term "enemy behaviour" can match with the creative mechanics of each game.
+
+Now I am going to list some types of enemy behaviour:
+
+## Static Turn-based (Pokemon)
+
+
+## Static Natural (Cadence of Hyrule)
+
+## Live Natural (TLOZ)
+
+## Live Turn-based (Mario & Luigi saga)
+
+## Others...
+
+# Conclusions
+
+
