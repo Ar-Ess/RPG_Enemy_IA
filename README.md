@@ -103,22 +103,29 @@ For every original RPG game, there is a different enemy behaviour. It is importa
 Now I am going to list some types of enemy behaviour:
 
 ## Static Turn-based (Pokemon)
+In this type of behaviour the enemy do not move from its position, meaning of "static". And obviously, due the combat system, we add the "Turn-based". This eases the developer's life because the atacks are predefined and there has not to be any type of physics neither collisions. The enemy just chooses the attack and then makes the action from its position.
 
 ![](static-turnbased-pokemon.jpg)
 
 ## Static Natural (Cadence of Hyrule)
+The static natural is a strange combination, there are a few enemies of them. In this case, Cadence of Hyrule presents some enemies which actitude is static, but attacking the player at the ryhthm of the music. Natural comes from the sense which the enemy is located in the same place the player is, so there's no need to enter a new scene to defeat the enemy itself.
 
 ![](static-natural-cadence.gif)
 
 ## Live Natural (TLOZ)
+In this case, The Legend of Zelda RPG classic games are perfect. The enemies attack in a "live" way, its position are changing, their attacks as well depending on the player's actions. Obviously, we call it natural because the enemy stands in the same scene the story is told.
 
 ![](live-natural-link.gif)
 
 ## Live Turn-based (Mario & Luigi saga)
+Mario & Luigi saga has been a revolution in the turn-based combat systems, making the enemies take live place in the fight. As you can see in the link below, the enemies move towards the player, involving collisions and physics, so tne player is able to dodge it also live.
 
 ![](live-turnbased-mario.gif)
 
+[Video for reference](https://youtu.be/rbhcpTDpm-o?t=1335)
+
 ## Others...
+Finally, we reaches the part where your mind has to fly in order to search new type of enemies behaviours. In this case, is a turn-based combat which the "enemy" just attacks if its been attacked previously, so the main mechanic of the game is to tame the enemy, not to kill them.
 
 ![](others-dinosaur-king.gif)
 
