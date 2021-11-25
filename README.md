@@ -1,6 +1,28 @@
 This research project has been studied and completed by [Martí Buxeda Sardans](https://github.com/Ar-Ess) in the "Design & Development of Videogames" degree, realized in the Tech Talent Center CITM/UPC university. This project was supported by [Ramon de Santa Maria](https://github.com/raysan5), the teacher of the subject "Project II".
 
-# What is AI in RPG games actually?
+# Index
+1. [What is AI in RPG](#what-is-ai-in-rpg)
+2. [Where is AI in an RPG](#where-is-ai-in-an-rpg)
+   1. [Enemies](#enemies)
+   2. [NPC](#enemies)
+3. [Brain structure in combats](#brain-structure-in-combats)
+   1. [Tryhard Mode](#tryhard-mode)
+   2. [Defensive Mode](#defensive-mode)
+   3. [Balanced Mode](#balanced-mode)
+4. [Intelligence Level](#intelligence-level)
+5. [Enemy Behaviour Types](#enemy-behaviour-types)
+   1. [Static Natural](#static-natural)
+   2. [Static Turn Based](#static-turn-based)
+   3. [Live Natural](#live-natural)
+   4. [Live Turn Based](#live-turn-based)
+   5. [Others...](#others)
+6. [Conclusions](#conclusions)
+
+***
+
+# Introduction
+
+# What is AI in RPG
 
 Nowadays, the RPG world is in a fight, all the companies want to make something unique based on the roleplay of a character, and how the player interacts with it in order to achieve its final mission to successfully end the game. In those games, as the main name says, the player needs to feel like it is the real character in that specific situation, so the player needs intelligent inputs from outside (not just the character) in order to achieve that realism.
 
@@ -17,7 +39,7 @@ Finally, we can conclude that the main purpose of AI in RPG is to give a realist
 
 ***
 
-# Where could we find AI in an RPG?
+# Where is AI in an RPG
 
 ## Enemies
 
@@ -99,35 +121,39 @@ Without further do, here you can see the direct relationship between the Brain s
 
 ***
 
-# Types of enemy behavior
+# Enemy Behaviour Types
 
 For every original RPG game, there is a different enemy behavior. It is important to know about this topic which would be the one that will make our game shine. It important to distinguish the enemy behavior from the combat system, it is not the same. We can be, for example, in a live combat system and fight in a Link-usual game or a Cadence of Hyrule style. Both are live combat systems, but the enemy behavior is different. Usually, the term "enemy behavior" can match with the creative mechanics of each game.
 
 Now I am going to list some types of enemy behavior:
 
-## Static Turn-based (Pokemon)
-In this type of behavior the enemy does not move from its position, meaning of "static". And obviously, due to the combat system, we add the "Turn-based". This eases the developer's life because the attacks are predefined and there has not to be any type of physics neither collisions. The enemy just chooses the attack and then makes the action from its position.
-
-![](static-turnbased-pokemon.jpg)
-
-## Static Natural (Cadence of Hyrule)
+## Static Natural 
+#### Cadence of Hyrule
 The static natural is a strange combination, there are a few enemies of them. In this case, Cadence of Hyrule presents some enemies which attitude is static but attacking the player at the rhythm of the music. Natural comes from the sense which the enemy is located in the same place the player is, so there's no need to enter a new scene to defeat the enemy itself.
 
 ![](static-natural-cadence.gif)
 
-## Live Natural (TLOZ)
+## Static Turn Based
+#### Pokemon
+In this type of behavior the enemy does not move from its position, meaning of "static". And obviously, due to the combat system, we add the "Turn-based". This eases the developer's life because the attacks are predefined and there has not to be any type of physics neither collisions. The enemy just chooses the attack and then makes the action from its position.
+
+![](static-turnbased-pokemon.jpg)
+
+## Live Natural
+#### TLOZ
 In this case, The Legend of Zelda RPG classic games are perfect. The enemies attack in a "live" way, its position are changing, their attacks as well depending on the player's actions. Obviously, we call it natural because the enemy stands in the same scene the story is told.
 
 ![](live-natural-link.gif)
 
-## Live Turn-based (Mario & Luigi saga)
+## Live Turn Based
+#### Mario & Luigi saga
 Mario & Luigi saga has been a revolution in the turn-based combat systems, making the enemies take a live place in the fight. As you can see in the link below, the enemies move towards the player, involving collisions and physics, so the player is able to dodge it also live.
 
 ![](live-turnbased-mario.gif)
 
 [Video for reference](https://youtu.be/rbhcpTDpm-o?t=1335)
 
-## Others...
+## Others
 Finally, we reach the part where your mind has to fly in order to search new type of enemies behaviors. In this case, is a turn-based combat in which the "enemy" just attacks if it's been attacked previously, so the main mechanic of the game is to tame the enemy, not to kill them.
 
 ![](others-dinosaur-king.gif)
